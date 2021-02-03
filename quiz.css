@@ -1,0 +1,96 @@
+body{
+    background-color: burlywood;
+    
+}
+.container{
+    background-color:rgb(170, 204, 204);
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    border: 3px solid #7ad21;
+    padding:2px;
+    
+    
+}
+.q{
+    text-align: left;
+    padding: 2px;
+}
+h4{
+    color: brown;
+
+}
+.quiz-select{
+  margin-left: 5%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  
+}
+.box{
+  width: 22%;
+  height: 100%;
+  border: 1px solid rgb(47, 216, 56);
+
+}
+.h1{
+  
+    position: fixed;
+    top: 5%;
+    left: 10%;
+}
+
+
+
+
+.first{
+    position: absolute;
+    top: 54%;
+    left: 40%;
+    
+}.btn{
+    text-align: right;
+    color: rgb(248, 246, 246) ;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 7px 10px;
+    background: #107afd;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 10px;
+}
+.button{
+    text-align: right;
+    color: rgb(248, 246, 246) ;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 7px 10px;
+    margin-top: 35px;
+    background: #97b6db;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 10px;
+    box-shadow: 2px 5px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.drop-content{
+    display: none;
+
+    position: absolute;
+    background-color: #5c1f1f;
+    min-width: 160px;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px,16px;
+    z-index: 1;
+    
+}
+.dropdown:hover .drop-content{
+    display: block;
+}
+

@@ -1,0 +1,248 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0 5% 0 5%;
+}
+
+.title{
+    margin: 3% 0% 5% 5%;
+}
+.color-change{
+    animation: color-change 1s infinite;
+}
+
+@keyframes color-change{
+    0%{
+        color: cadetblue;
+    }
+    20%{color: blanchedalmond;}
+    40%{color: cyan;}
+    60%{color: greenyellow;}
+    80%{color: grey;}
+    100%{color: hotpink;}
+}
+.quiz-select{    
+
+    height: 45%;
+    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.box {
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  
+    
+    height: 100%;
+    width: 22%;
+    background: white;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.box:hover{
+    transform: scale(1.1);
+}
+.sports-image{
+    width: 100%;
+    height: 80%;
+}
+.movie-image{
+    width: 100%;
+    height: 80%;
+    background: #1D976C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+.gk-image{
+    width: 100%;
+    height: 80%;
+}
+.politics-image{
+    width: 100%;
+    height: 80%;
+    background: #1A2980;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.tag{
+    margin: 1%;
+    font-size: 20px;
+}
+.para{
+    margin: 1%;
+    
+    font-size: 12px;
+}
+
+.bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  
+  .content {
+    background-color:rgba(255,255,255,.8);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    box-sizing:border-box;
+    left:50%;
+    padding:10vmin;
+    position:fixed;
+    text-align:center;
+    top:50%;
+    transform:translate(-50%, -50%);
+  }
+  
+  h1 {
+    font-family:monospace;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+
+
+
+
+  
+.head{
+  
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  
+  
+  .move{
+    anima
+      position: relative;
+      animation-name: mark;
+      animation-duration: 15s;
+      animation-iteration-count: infinite;
+      top: 5vh;
+      left: 5vw;
+  }
+  .move1{
+    animation-delay: 2s;
+      position: relative;
+      animation-name: mark;
+      animation-duration: 15s;
+      animation-iteration-count: infinite;
+      left: 70vw;
+      top: 5vh;
+  }
+  .move2{
+    animation-delay: 4s;
+      position: relative;
+      animation-name: mark;
+      animation-duration: 15s;
+      animation-iteration-count: infinite;
+      left: 45vw;
+      top: 9vh;
+      
+  }
+  .move3{
+    animation-delay: 6s;
+      position: relative;
+      animation-name: mark;
+      animation-duration: 15s;
+      animation-iteration-count: infinite;
+      left: 65vw;
+      top: 25vh;
+  
+  }
+  .move4{
+      position: relative;
+      animation-name: mark;
+      animation-duration: 15s;
+      animation-iteration-count: infinite;
+      left: 20vw;
+      top: -9vh;
+  }
+  .move5{
+    animation-delay: 6s;
+      position: relative;
+      animation-name: mark;
+      animation-duration: 15s;
+      animation-iteration-count: infinite;
+      left: 30vw;
+      top:  5vh;
+      
+  }
+  .move6{
+      position: relative;
+      animation-name: mark;
+      animation-duration: 15s;
+      animation-iteration-count: infinite;
+      left: 35vw;
+      top: -6vh;
+      
+  }
+  .move7{
+    animation-delay: 2s;
+      position: relative;
+      animation-name: mark;
+      animation-duration: 15s;
+      animation-iteration-count: infinite;
+      left: 26vw;
+      top: -8vh;
+  }
+  .move8{
+    animation-delay: 4s;
+      position: relative;
+      animation-name: mark;
+      animation-duration: 15s;
+      animation-iteration-count: infinite;
+      left: 35vw;
+      top: -25vh;
+  
+  }
+  
+  @keyframes mark{
+      from{
+          transform: scale(0) rotate(0deg) translate(-50%, -50%) ;
+          opacity: 1;
+      }
+      to{
+          transform: scale(2)  rotate(960deg) translate(-50%, -50%);
+          opacity: 0;
+      }
+  }
+  
